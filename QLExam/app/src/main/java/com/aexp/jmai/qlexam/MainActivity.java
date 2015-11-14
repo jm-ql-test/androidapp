@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
                 progressBar.setVisibility(VISIBLE);
                 listView.setVisibility(INVISIBLE);
                 message.setVisibility(INVISIBLE);
+                InputMethodManager inputManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
                 //todo probably need to check query validity
                 String query = queryEditText.getText().toString();
 
