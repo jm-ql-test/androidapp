@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QLExam</string>
+    <string name="query_title">Game Title</string>
+    <string name="search">Search</string>
+    <string name="no_result">No results. Please try again.</string>
+    <string name="service_not_available">Service is not available. Please try again later.</string>
+</resources>
