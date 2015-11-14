@@ -21,6 +21,8 @@ import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Func4;
 import rx.schedulers.Schedulers;
+import android.view.inputmethod.InputMethodManager;
+import android.content.Context;
 
 import static android.view.View.GONE;
 import static android.view.View.INVISIBLE;
